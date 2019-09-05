@@ -1,0 +1,26 @@
+{
+  "name": "@leismore/error_handler_error",
+  "version": "1.0.0",
+  "description": "An error handler function for the standard JavaScript Error.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/error_handler_Error-function.git"
+  },
+  "keywords": [
+    "Error"
+  ],
+  "author": "Kyle Chine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leismore/error_handler_Error-function/issues"
+  },
+  "homepage": "https://github.com/leismore/error_handler_Error-function#readme",
+  "dependencies": {
+    "@leismore/response": "^1.0.0",
+    "express": "^4.17.1"
+  }
+}
