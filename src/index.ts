@@ -1,25 +1,6 @@
 /**
- * error_handler_Error
- * An error handler function for the standard JavaScript Error.
+ * error_handler_last function - An error handler function for Express.js
  */
 
-'use strict';
-
-const Response    = require('@leismore/response');
-
-function error_handler_Error(error, req, res, next)
-{
-  const resp = new Response(res);
-
-  // If HTTP headers sent, go to default handler
-  if (res.headersSent) {
-    next(error);
-    return;
-  }
-  // End
-
-  resp.res500(error);
-  return;
-}
-
-module.exports = error_handler_Error;
+import {error_handler_last} from './lib/error_handler_last';
+export {error_handler_last};

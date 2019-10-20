@@ -1,16 +1,19 @@
-# error_handler_Error-function
+# error_handler_last-function
 
-An error handler function for the standard JavaScript Error.
+error_handler_last function - An error handler function for Express.js.
 
 ## Installation
 
-`npm install @leismore/error_handler_error`
+`npm install @leismore/error_handler_last`
 
 ## Examples
 
-```JavaScript
-const error_handler_Error = require('@leismore/error_handler_error');
-app.use(error_handler_Error);
+```TypeScript
+import {error_handler_last} from '@leismore/error_handler_last';
+// Or
+const error_handler_last = require('@leismore/error_handler_last').error_handler_last;
+
+app.use(error_handler_last);
 ```
 
 ## License
