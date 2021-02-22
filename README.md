@@ -10,19 +10,20 @@ Buy me a coffee via [![PayPal Donation](https://www.paypalobjects.com/en_AU/i/bt
 
 `npm install @leismore/error_handler_last`
 
+## Test
+
+`npm test`
+
 ## Examples
 
 ```TypeScript
 import {error_handler_last} from '@leismore/error_handler_last';
-// Or
-const error_handler_last = require('@leismore/error_handler_last').error_handler_last;
-
 app.use(error_handler_last);
 ```
 
 ## License
 
-MIT
+GNU Affero General Public License v3.0
 
 ## Authors
 
