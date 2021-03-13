@@ -1,12 +1,12 @@
 {
   "name": "@leismore/error_handler_last",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An error handler function for Express.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "start-server": "ts-node ./test/server.ts",
-    "start-test": "mocha './test/test.ts'",
+    "start-test": "mocha ./test/test.ts",
     "test": "start-server-and-test start-server http://localhost:8080 start-test",
     "build": "tsc"
   },
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/leismore/error_handler_last-function#readme",
   "dependencies": {
-    "@leismore/response": "^4.0.0",
+    "@leismore/response": "^5.0.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
