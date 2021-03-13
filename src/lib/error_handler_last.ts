@@ -3,7 +3,7 @@
  */
 
 import {Request, Response, NextFunction} from 'express';
-import {Response as Resp} from '@leismore/response';
+import {LMResponse as Resp} from '@leismore/response';
 
 function error_handler_last(error:Error, req:Request, res:Response, next:NextFunction): void
 {
