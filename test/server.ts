@@ -1,5 +1,5 @@
 import express = require('express');
-import { Response as Resp, ResData as RespData } from '@leismore/response';
+import { LMResponse as Resp, LMResponseData as RespData } from '@leismore/response';
 import { error_handler_last } from '../src/index';
 
 const app  = express();
